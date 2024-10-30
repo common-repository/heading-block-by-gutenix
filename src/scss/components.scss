@@ -1,0 +1,114 @@
+/**
+ * Color Picker
+ */
+ .heading-block-by-gutenix-component-color-picker-wrapper {
+	.heading-block-by-gutenix-component-color-picker-wrapper + .heading-block-by-gutenix-component-color-picker-wrapper {
+		margin-top: -5px;
+	}
+
+	> .components-base-control__field {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 16px;
+
+		.components-color-palette__item-wrapper {
+			margin: 0;
+		}
+	}
+}
+.heading-block-by-gutenix-component-color-picker {
+	.heading-block-by-gutenix-component-color-picker-palette {
+		margin: 0 8px;
+	}
+	.components-color-palette {
+		margin: 0;
+	}
+	.components-color-picker__inputs-wrapper{
+		padding-top: 0px;
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		align-items: flex-start;
+	}
+	.components-color-picker__body{
+		padding: 16px 8px 12px;
+	}
+}
+
+.heading-block-by-gutenix-components-toolbar-inline > div {
+  display: inline-flex;
+  margin-right: 10px;
+}
+
+#editor.block-editor__container .components-range-control__number {
+	width: 55px;
+}
+
+/**
+ * Tabs
+ */
+
+ .heading-block-by-gutenix-size-type-field-tabs {
+	position: relative;
+	.components-button-group.heading-block-by-gutenix-size-type-field{
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.components-tab-panel__tabs{
+		margin-bottom: 7px;
+	}
+}
+.edit-post-settings-sidebar__panel-block{
+	.heading-block-by-gutenix-typography-options{
+		.heading-block-by-gutenix-typography-range-options{
+			margin-top: 24px;
+		}
+		.react-select-container{
+			margin-bottom: 10px;
+		}
+		.components-base-control{
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.heading-block-by-gutenix-arrow-carousel-control {
+	.components-range-control.heading-block-by-gutenix-arrow-control{
+		display: inline-block;
+	}
+	.components-tab-panel__tabs{
+		float: left;
+		margin-bottom: 10px;
+	}
+}
+
+.components-toolbar.heading-block-by-gutenix-component-align-wrapper{
+	border: none;
+}
+.heading-block-by-gutenix-align-advanced{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.components-button.heading-block-by-gutenix-rm-btn{
+	margin-left: 10px;
+}
+
+/**
+ * Align Component
+ */
+ .heading-block-by-gutenix-align-advanced{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/**
+ * Input URL
+ */
+ .block-editor-url-input input[type=text] {
+	width: 100%;
+}

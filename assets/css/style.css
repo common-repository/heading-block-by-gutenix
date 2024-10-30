@@ -1,0 +1,35 @@
+.wp-block-column {
+  margin-left: 15px;
+  margin-right: 15px; }
+  .wp-block-column:first-child {
+    margin-left: 0; }
+  .wp-block-column:last-child {
+    margin-right: 0; }
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top; }
+
+.components-panel__body.is-opened .components-panel__body {
+  margin: 0 -16px; }
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Mixins
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Heading
+--------------------------------------------------------------*/
+.heading-block-by-gutenix-heading {
+  width: 100%; }
+  .heading-block-by-gutenix-heading .text-left {
+    text-align: left; }
+  .heading-block-by-gutenix-heading .text-center {
+    text-align: center; }
+  .heading-block-by-gutenix-heading .text-right {
+    text-align: right; }
+  .heading-block-by-gutenix-heading .text-justify {
+    text-align: justify; }
